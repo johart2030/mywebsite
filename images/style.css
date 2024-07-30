@@ -1,0 +1,52 @@
+/* Navigation buttons */
+nav button {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 24px; /* Increased padding */
+  font-size: 18px; /* Larger font size */
+  text-decoration: none;
+  background-color: #333; /* Button background color */
+  border: none; /* Remove borders */
+  cursor: pointer; /* Change mouse cursor on hover */
+}
+
+/* Change the color of links on hover */
+nav button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Search bar styles */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #555;
+}
